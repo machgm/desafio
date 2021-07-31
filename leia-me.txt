@@ -1,0 +1,12 @@
+SQL 2017 necessário
+Usuario: sa
+Senha: 233549
+Instancia: SQLEXPRESS01
+database: desafio
+
+Implementado: 
+Cadastro de Noticias.
+Funções para Update e Delete dos Registros
+
+Não Implementado:
+Tela de Update e Delete
