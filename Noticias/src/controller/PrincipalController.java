@@ -73,7 +73,7 @@ public class PrincipalController implements Initializable {
 	void adicionarNoticia(ActionEvent event) {
 		try {
 			Parent parentAdicionar;
-			parentAdicionar = FXMLLoader.load(getClass().getResource("../view/AdicionarNoticia.fxml"));
+			parentAdicionar = FXMLLoader.load(getClass().getResource("/view/AdicionarNoticia.fxml"));
 			Scene sceneAdicionar = new Scene(parentAdicionar);
 			Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
@@ -103,7 +103,7 @@ public class PrincipalController implements Initializable {
 					try {
 						loader.load();
 						Parent parentAdicionar;
-						parentAdicionar = FXMLLoader.load(getClass().getResource("../view/EditarNoticia.fxml"));
+						parentAdicionar = FXMLLoader.load(getClass().getResource("/view/EditarNoticia.fxml"));
 						Scene sceneAdicionar = new Scene(parentAdicionar);
 						Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
