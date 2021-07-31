@@ -110,7 +110,7 @@ public class NovaNoticiaController implements Initializable {
     	try {
     		System.out.println("Entrou");
 			Parent parentHomePage;
-			parentHomePage = FXMLLoader.load(getClass().getResource("../view/Principal.fxml"));
+			parentHomePage = FXMLLoader.load(getClass().getResource("/view/Principal.fxml"));
 			Scene homePage = new Scene(parentHomePage);
 			Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
