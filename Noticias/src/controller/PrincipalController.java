@@ -101,16 +101,15 @@ public class PrincipalController implements Initializable {
 					FXMLLoader loader = new FXMLLoader();
 
 					try {
-						loader.load();
+						
 						Parent parentAdicionar;
 						parentAdicionar = FXMLLoader.load(getClass().getResource("/view/EditarNoticia.fxml"));
 						Scene sceneAdicionar = new Scene(parentAdicionar);
 						Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
-						
-
 						appStage.setScene(sceneAdicionar);
 						appStage.show();
+						
 					} catch (IOException e1) { // TODO Auto-generated catch block e1.printStackTrace(); }
 
 					}
